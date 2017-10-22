@@ -5,7 +5,7 @@
   "main": "app/app.js",
   "scripts": {
     "start": "node app/app.js",
-    "dev": "nodemon -e css,ejs,js,json --watch app --ignore feedback.json",
+    //"dev": "nodemon -e css,ejs,js,json --watch app --ignore feedback.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

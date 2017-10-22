@@ -1,0 +1,34 @@
+{
+  "name": "node-express-best-practices",
+  "version": "1.0.0",
+  "description": "An example application to show the best practices for Node.js and Express.js.",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "node app/app.js",
+    "dev": "nodemon -e css,ejs,js,json --watch app --ignore feedback.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nastanford/Node-Express-Best-Practices.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "Best",
+    "Practices"
+  ],
+  "author": "Nathan Stanford Sr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nastanford/Node-Express-Best-Practices/issues"
+  },
+  "homepage": "https://github.com/nastanford/Node-Express-Best-Practices#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "reload": "^2.2.2",
+    "socket.io": "^2.0.3"
+  }
+}

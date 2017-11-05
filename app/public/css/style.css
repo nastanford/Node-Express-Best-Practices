@@ -4,12 +4,12 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
+  background: #ddd;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  color: #C1343F;
 }
 
 p {
@@ -23,11 +23,6 @@ li {
   font-weight: 100;
 }
 
-
-a {
-  color: #DD4F53;
-}
-
 /**  Header Navigation **/
 
 header {
@@ -35,19 +30,20 @@ header {
 }
 
 header .jumbotron {
-  height: 40vh;
+  background: #336699;
+  color:#FFFFFF;
+  height: 10vh;
   margin-bottom: 0;
-  background: url(../images/misc/background.jpg) no-repeat 100% 5%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
+
 /**  Navbar **/
 
 header .navbar {
-  background: #CF5565;
   margin-bottom: 0;
   border-radius: 0;
   font-family: "Roboto", sans-serif;
@@ -99,55 +95,10 @@ header .navbar-inverse .navbar-nav>li>a {
   margin-bottom: 10px;
 }
 
-@media (max-width: 768px) {
-  .sidebar {
-    line-height: 160%;
-  }
-  .sidebar .sidebar-title {
-    font-size: 2em;
-  }
-}
-
-.speakerslist {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.8rem;
-  line-height: 160%;
-}
-
-#speakerList .speakerslist-img {
-  margin-right: 20px;
-}
-
-.speakerslist-title {
-  font-size: 1.7em;
-}
-
-#home .speakerslist-title {
-  font-size: 1.5em;
-}
-
-#speakerDetail .speakerslist-title {
-  font-size: 2.4em;
-}
-
-#speakerDetail .speakerslist-img {
-  margin: 20px 0;
-}
-
-.form-control {
-  font-weight: 100;
-  font-size: 1.7rem;
-}
-
-.chat-form {
-  margin-top: 20px;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
-}
 
 .jumbotron {
   padding: 20px 0;
-  background-color: #FFEB8B;
+  background-color:330000;
 }
 
 /**  chat-display **/

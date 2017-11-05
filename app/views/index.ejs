@@ -3,15 +3,13 @@
   <head><% include partials/template/head.ejs %></head>
   <body id="<%= pageID %>">
     <% include partials/template/header.ejs %>
-    <% include partials/content/speakerslist.ejs %>
     <div class="container">
       <div class="row">
         <div class="col-sm-8">
-        <% include partials/content/maincontent.ejs %>
+          <% include partials/content/maincontent.ejs %>
         </div><!-- primary -->
         <aside class="col-sm-4">
-          <% include partials/content/whoshouldcome.ejs %>
-          <% include partials/content/artworklist.ejs %>
+          <% include partials/content/sidetext.ejs %>
         </aside><!-- secondary -->
       </div>
     </div><!-- container -->

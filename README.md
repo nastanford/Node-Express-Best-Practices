@@ -14,9 +14,9 @@ This is my sample app that will explain the Best Practices for a Node Express Ap
   * package.json – remembers all packages that your app depends on and their versions
 
 ## Steps to add a new section and link
-1 Add to the app.js a input of a new controller
-2 Make the new controller in the controller folder
-3 In the controller make a list of all routes that this controller will handle.
-4 Make a view for each route that has need of a view.
-5 For a larger site you can create folder to seperate more organize them.
+#Add to the app.js a input of a new controller
+#Make the new controller in the controller folder
+#In the controller make a list of all routes that this controller will handle.
+#Make a view for each route that has need of a view.
+#For a larger site you can create folder to seperate more organize them.
 

@@ -1,178 +1,183 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:100, 300);
 
 body {
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-  background: #ddd;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	background: #fff;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 }
 
 p {
-  font-family: inherit;
-  font-weight: 100;
+	font-family: inherit;
+	font-weight: 100;
 }
 
-
 li {
-  font-family: inherit;
-  font-weight: 100;
+	font-family: inherit;
+	font-weight: 100;
 }
 
 /**  Header Navigation **/
 
 header {
-  font-size: 2rem;
+	font-size: 2rem;
 }
 
 header .jumbotron {
-  background: #336699;
-  color:#FFFFFF;
-  height: 10vh;
-  margin-bottom: 0;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	background: #336699;
+	color: #ffffff;
+	height: 10vh;
+	margin-bottom: 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
-
 
 /**  Navbar **/
 
 header .navbar {
-  margin-bottom: 0;
-  border-radius: 0;
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
+	background: #000000;
+	color: #ffffff;
+	margin-bottom: 0;
+	border-radius: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
 }
 
 header .navbar-default {
-  border: none;
-  border-radius: 0;
-  padding: 10px 0;
+	border: none;
+	border-radius: 0;
+	padding: 10px 0;
 }
 
 .navbar-inverse {
-  border: 0;
+	border: 0;
 }
 
-
 header .navbar-brand {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.3em;
-  font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.3em;
+	font-weight: 300;
 }
 
 header .navbar-inverse .navbar-brand {
-  color: white;
+	color: white;
+}
+header .navbar-nav > li > a {
+	color: white;
 }
 
-header .navbar-inverse .navbar-nav>li>a {
-  color: white;
-} 
+header .navbar-nav > li > a:hover {
+	color: #000;
+}
 
 .maincontent {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.8rem;
-  line-height: 160%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.8rem;
+	line-height: 160%;
 }
 
 .sidebar {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.8rem;
-  line-height: 130%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.8rem;
+	line-height: 130%;
 }
 
 .sidebar .sidebar-title {
-  font-size: 1.5em;
+	font-size: 1.5em;
 }
 
 .sidebar .sidebar-body li {
-  margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
-
 .jumbotron {
-  padding: 20px 0;
-  background-color:330000;
+	padding: 20px 0;
+	background-color: 330000;
 }
 
 /**  chat-display **/
 
 .chat-display {
-  min-height: 150px;
-  max-height: 40vh;
-  overflow: scroll;
-  font-size: 1.2em;
+	min-height: 150px;
+	max-height: 40vh;
+	overflow: scroll;
+	font-size: 1.2em;
 }
 
 .chat-display p {
-  font-size: .9em;
-  padding: 0 10px;
+	font-size: 0.9em;
+	padding: 0 10px;
 }
 
-.feedback, .feedback-form-title {
-  font-size: 2rem;
+.feedback,
+.feedback-form-title {
+	font-size: 2rem;
 }
 
 .feedback-form {
-  margin-top: 20px;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
+	margin-top: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
 }
 
-
 .feedback-title {
-  font-size: 1.2em;
+	font-size: 1.2em;
 }
 
 .feedback-form-title {
-  font-size: 2em;
+	font-size: 2em;
 }
 
 .feedback-name {
-  font-size: .6em;
-  font-weight: 100;
+	font-size: 0.6em;
+	font-weight: 100;
 }
 
 .feedback-message {
-  font-weight: 100;
-  font-size: .9em;
-  line-height: 120%;
-  margin-top: 5px;
+	font-weight: 100;
+	font-size: 0.9em;
+	line-height: 120%;
+	margin-top: 5px;
 }
 
 .feedback-item {
-  border-bottom: 1px solid gray;
-  padding: 8px 0;
+	border-bottom: 1px solid gray;
+	padding: 8px 0;
 }
 
 .feedback-item:last-of-type {
-  border-bottom: none;
+	border-bottom: none;
 }
-
 
 /**  pixgrid **/
 
 .pixgrid {
-  cursor: pointer;
-  margin-top: 20px;
+	cursor: pointer;
+	margin-top: 20px;
 }
 
 .pixgrid img {
-  display: block;
-  padding: 5px;
-  float: left;
-  width: 33.33%;
-  border-radius: 10px;
+	display: block;
+	padding: 5px;
+	float: left;
+	width: 33.33%;
+	border-radius: 10px;
 }
 
 @media (min-width: 500px) and (max-width: 768px) {
-  .pixgrid img {
-    width: 20%;
-  }
+	.pixgrid img {
+		width: 20%;
+	}
 }

@@ -14,7 +14,7 @@ This is my sample app that will explain the Best Practices for a Node Express Ap
   * package.json – remembers all packages that your app depends on and their versions
 
 
-
+```
 |-- package.json
 |-- .gitignore
 |-- app

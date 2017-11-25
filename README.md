@@ -14,6 +14,10 @@ This is my sample app that will explain the Best Practices for a Node Express Ap
   * /app/views/ – provides templates, Content which are rendered and served by your routes
   * /app/app.js – initializes the app and glues everything together
 
+  ## Project Examples
+  * Simple Blog
+  * To Do List
+
 
 ```
 |-- package.json
